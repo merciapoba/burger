@@ -1,0 +1,192 @@
+@font-face{
+    font-family:"BebasNeue-Regular";
+    src: url(./font/BebasNeueR.ttf) format("truetype");
+}
+@font-face{
+    font-family: "AlfaSlabOne-Regular";
+    src: url(./font/AlfaSlabOneR.ttf)format("truetype");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./image/background.png);
+}
+.logo img{
+    width: 200px;
+    height: 40px;
+    margin-left: 10%;
+}
+.social{
+    margin-right: 3%;
+}
+.social img{
+    width: 30px;
+    height: 30px;
+}
+.logo.social{
+    margin: 20px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    height: 20vh;
+    width: 100%;
+    align-items: center;
+}
+.text p{
+    font-size: 25px;
+    font-family: "AlfaSlabOne-Regular";
+    border: 2px dashed black;
+    width: 890px;
+    padding: 05px;
+}
+.text h1{
+    font-size: 120px;
+    font-family: "AlfaSlabOne-Regular" ;
+    color: #3d2514; 
+    text-shadow: 3px 3px white; 
+    letter-spacing: 3px;  
+}
+.text h2{
+    font-size: 75px;
+    font-family: "AlfaSlabOne-Regular" ;
+    color: #3d2514;
+    text-shadow: 3px 3px white;
+    letter-spacing: 3px;
+}
+.container{
+    width: 100%;
+    height: 90%;
+    display: flex;
+}
+.left, .right{
+    width: 50%;
+    height: 100%;
+}
+.text{
+    padding: 30px;
+}
+.piment{
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    margin: 3%;
+}
+.piment img{
+    width: 46px;
+    height: 48px;
+    position: absolute;
+    bottom: 2px;
+}
+.piment h3{
+    background-color: #3d2514;
+    font-family:"BebasNeue-Regular";
+    letter-spacing: 2px;
+    font-weight: lighter;
+    padding: 0 10px;
+    padding-left: 30px;
+    margin-left: 23px;
+    color: white;
+    font-size: 22px;
+}
+.haut{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.shadow{
+    position: absolute;
+    bottom: 5%;
+    right: -2%;
+    height: 40px;
+    width: 300px;
+}
+.shadow2{
+    position: absolute;
+    width: 500px;
+    height: 40px;
+    right: -8%;
+    bottom: 5%;
+}
+.burger{
+    position: absolute;
+    left: 20%;
+    top: 12%;
+    width: 400px;
+    height: 400px;
+    z-index: 1;
+}
+.drinks{
+    position: absolute;
+    left: 50%;
+    top: -5%;
+    width: 200px;
+    height: 500px;
+}
+.fries{
+    position: absolute;
+    left: 10%;
+    bottom: 40%;
+    width: 200px;
+    height: 400px;
+    transform: rotate(-30deg);
+}
+.cercle{
+    width: 120px;
+    height: 120px;
+    border: 2px;
+    background-color: #df1b1c;
+    border-radius: 50%;
+    bottom: 25%;
+    position:absolute;
+    left: 7%;
+    z-index: 1;
+}
+.cercle2{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    bottom: 25.70%;
+    position: absolute;
+    left: 7.70%;
+    border: 2px dashed white;
+    z-index: 1;
+    align-items: center;
+}
+.prix{
+    position: absolute;
+    bottom: 30%;
+    left: 10%;
+    z-index: 1;
+    color: white;
+}
+.bas{
+    position: absolute;
+    left: 78%;
+    bottom: 3%;
+}
+.Rectangle{
+    position: absolute;
+    right: 400%;
+    bottom: 8%;
+}
+
+.prix1{
+    font-size: 30px;
+    font-family: "AlfaSlabOne-Regular" ;
+}
+.prix2{
+    font-family: "AlfaSlabOne-Regular" ;
+}
+.car{
+    width: 10%;
+    height: 6%;
+    left: 1%;
+    bottom: 18%;
+    position:absolute ;
+}
